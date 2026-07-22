@@ -32,7 +32,7 @@ function emy_enqueue_react_assets() {
             $uri . 'build/' . $entry['file'],
             [],
             null,
-            [ 'in_footer' => true, 'type' => 'module' ]
+            [ 'in_footer' => true ]
         );
 
         if (!empty($entry['css'])) {
